@@ -1,0 +1,12 @@
+XENDIT LOGO PLACEHOLDER
+
+Please download the official Xendit logo from:
+https://www.xendit.co/en/press-kit
+
+Recommended specifications:
+- Format: PNG
+- Size: Similar to other logos (approximately 25-50KB)
+- Dimensions: Proportional to other payment gateway logos
+- File name: xendit.png
+
+Place the logo file as: /public/assets/payment/xendit.png

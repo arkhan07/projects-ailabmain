@@ -1,0 +1,78 @@
+:root {
+  /* Cyan Colors - Updated from Color Palette */
+  --foundation-cyanlight: rgba(21, 218, 170, 1); /* #15DAAA */
+  --foundation-cyanlight-hover: rgba(18, 202, 170, 1); /* #12CAAA */
+  --foundation-cyanlight-active: rgba(17, 186, 170, 1); /* #11BAAA */
+  --foundation-cyannormal: rgba(0, 238, 207, 1); /* #00EECF */
+  --foundation-cyannormal-hover: rgba(0, 145, 145, 1); /* #009191 */
+  --foundation-cyannormal-active: rgba(0, 127, 127, 1); /* #007F7F */
+  --foundation-cyandark: rgba(0, 121, 121, 1); /* #007979 */
+  --foundation-cyandark-hover: rgba(0, 97, 97, 1); /* #006161 */
+  --foundation-cyandark-active: rgba(0, 84, 84, 1); /* #005454 */
+  --foundation-cyandarker: rgba(0, 60, 54, 1); /* #003C36 */
+
+  /* Black Colors - Updated from Color Palette */
+  --foundation-blacklight: rgba(22, 22, 22, 1); /* #161616 */
+  --foundation-blacklight-hover: rgba(14, 14, 14, 1); /* #0E0E0E */
+  --foundation-blacklight-active: rgba(31, 31, 31, 1); /* #1F1F1F */
+  --foundation-blacknormal: rgba(0, 0, 0, 1); /* #000000 */
+  --foundation-blacknormal-hover: rgba(0, 0, 0, 1); /* #000000 */
+  --foundation-blacknormal-active: rgba(0, 0, 0, 1); /* #000000 */
+  --foundation-blackdark: rgba(0, 0, 0, 1); /* #000000 */
+  --foundation-blackdark-hover: rgba(0, 0, 0, 1); /* #000000 */
+  --foundation-blackdark-active: rgba(0, 0, 0, 1); /* #000000 */
+  --foundation-blackdarker: rgba(0, 0, 0, 1); /* #000000 */
+
+  /* White Colors - Updated from Color Palette */
+  --foundation-whitelight: rgba(255, 255, 255, 1); /* #FFFFFF */
+  --foundation-whitelight-hover: rgba(253, 253, 253, 1); /* #FDFDFD */
+  --foundation-whitelight-active: rgba(255, 255, 255, 1); /* #FFFFFF */
+  --foundation-whitenormal: rgba(255, 255, 255, 1); /* #FFFFFF */
+  --foundation-whitenormal-hover: rgba(244, 244, 244, 1); /* #F4F4F4 */
+  --foundation-whitenormal-active: rgba(235, 235, 235, 1); /* #EBEBEB */
+  --foundation-whitedark: rgba(227, 227, 227, 1); /* #E3E3E3 */
+  --foundation-whitedark-hover: rgba(184, 184, 184, 1); /* #B8B8B8 */
+  --foundation-whitedark-active: rgba(158, 158, 158, 1); /* #9E9E9E */
+  --foundation-whitedarker: rgba(112, 112, 112, 1); /* #707070 */
+
+  /* Grey Colors - Updated from Color Palette */
+  --foundation-greylight: rgba(123, 123, 123, 1); /* #7B7B7B */
+  --foundation-greylight-hover: rgba(109, 109, 109, 1); /* #6D6D6D */
+  --foundation-greylight-active: rgba(145, 145, 145, 1); /* #919191 */
+  --foundation-greynormal: rgba(91, 91, 91, 1); /* #5B5B5B */
+  --foundation-greynormal-hover: rgba(68, 68, 68, 1); /* #444444 */
+  --foundation-greynormal-active: rgba(51, 51, 51, 1); /* #333333 */
+  --foundation-greydark: rgba(35, 35, 35, 1); /* #232323 */
+  --foundation-greydark-hover: rgba(24, 24, 24, 1); /* #181818 */
+  --foundation-greydark-active: rgba(46, 46, 46, 1); /* #2E2E2E */
+  --foundation-greydarker: rgba(26, 26, 26, 1); /* #1A1A1A */
+  
+  /* Other Colors */
+  --foundation-white-netralnormal: rgba(255, 255, 255, 1);
+  --foundation-primary-color-2normal: rgba(0, 238, 207, 1);
+  --foundation-primary-colordarker: rgba(31, 11, 62, 1);
+  --foundation-primary-colornormal: rgba(89, 30, 176, 1);
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(90deg, rgba(0, 83, 72, 1) 0%, rgba(0, 238, 207, 1) 100%);
+  --gradient-price: linear-gradient(129deg, rgba(0, 0, 0, 1) 0%, rgba(0, 238, 207, 1) 100%);
+  --gradient-border: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 238, 207, 1) 100%);
+  
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 60px;
+  --spacing-2xl: 100px;
+  
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
