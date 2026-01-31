@@ -64,9 +64,9 @@ return [
     |
     */
 
-    'url' => $app_url,
+    'url' => env('APP_URL', 'https://community.ai-lab.id'),
+    'asset_url' => env('ASSET_URL', null),
 
-    'asset_url' => $asset_url,
 
     /*
     |--------------------------------------------------------------------------
